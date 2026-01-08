@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "store": ["shared/packages/store/dist"],
+      "pipeline": ["shared/packages/pipeline/dist"]
+    }
+  },
+  "include": ["apps/journey-jotter", "apps/landing"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lambdas/*",
+    "apps/journey-jotter-old",
+    "apps/journey-jotter/src/old/**/*",
+    "old-code/**/*"
+  ]
+}

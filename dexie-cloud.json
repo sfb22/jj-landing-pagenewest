@@ -1,0 +1,11 @@
+{
+  "serviceUrl": "https://dexie.cloud",
+  "dbUrl": "https://zssytqj5s.dexie.cloud",
+  "roles": [
+    {
+      "realmId": "rlm-public",
+      "name": "paidAccess",
+      "permissions": { "add": "*", "manage": "*" }
+    }
+  ]
+}

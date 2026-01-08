@@ -1,0 +1,43 @@
+
+> @journey-jotter/journey-jotter@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.8
+
+   Creating an optimized production build ...
+ ⚠ Found lockfile missing swc dependencies, patching...
+ ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+[TypeError: Cannot read properties of undefined (reading 'os')]
+
+Warning - In theme "journey-jotter-light" color "radius". Unable to parse color from string: 0.5rem
+
+Warning - In theme "jj-light" color "radius". Unable to parse color from string: 0.5rem
+
+Warning - In theme "frost-light" color "radius". Unable to parse color from string: 0.5rem
+
+Warning - In theme "forest-light" color "radius". Unable to parse color from string: 0.5rem
+
+Warning - In theme "twilight-light" color "radius". Unable to parse color from string: 0.5rem
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                      50 kB         151 kB
+├ ○ /_not-found                            975 B         102 kB
+└ ○ /manifest.webmanifest                  136 B         101 kB
++ First Load JS shared by all             101 kB
+  ├ chunks/315-fa5e095355138892.js       45.7 kB
+  ├ chunks/87c73c54-84ad2170d194b47e.js  53.3 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+○  (Static)  prerendered as static content
+

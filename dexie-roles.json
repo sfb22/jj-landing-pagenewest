@@ -1,0 +1,14 @@
+{
+  "roles": [
+    {
+      "realmId": "rlm-public",
+      "name": "paidAccess",
+      "permissions": { "add": "*", "manage": "*" }
+    },
+    {
+      "realmId": "rlm-public",
+      "name": "viewer",
+      "permissions": {}
+    }
+  ]
+}

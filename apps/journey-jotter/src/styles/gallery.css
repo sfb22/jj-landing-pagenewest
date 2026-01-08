@@ -1,0 +1,32 @@
+.gallery-item {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.gallery-item:hover {
+  opacity: 0.9;
+}
+
+.lg-backdrop {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.lg-toolbar,
+.lg-outer {
+  z-index: 9999;
+}
+
+/* Custom thumbnail styles */
+.lg-thumb-outer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lg-thumb-item {
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.lg-thumb-item.active,
+.lg-thumb-item:hover {
+  border-color: #fff;
+}
