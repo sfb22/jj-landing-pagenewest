@@ -4,7 +4,7 @@
 
 We've implemented a system that allows for dynamic LLM component configuration and accurate user balance tracking across all LLM-using components in the application.
 
-### Overview of Changes
+### Overview of Changes 
 
 We've updated all LLM-using components to:
 
