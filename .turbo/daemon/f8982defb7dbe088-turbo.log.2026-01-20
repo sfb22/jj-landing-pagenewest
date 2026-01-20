@@ -1,0 +1,116 @@
+2026-01-20T04:33:38.803290Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo\\daemon"), AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie")}
+2026-01-20T04:33:38.803335Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2026-01-20T04:33:38.827563Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2026-01-20T04:33:39.099382Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo")}
+2026-01-20T04:33:39.099411Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2026-01-20T04:33:39.489256Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\f8982defb7dbe088-turbo.log.2026-01-20")}
+2026-01-20T04:33:39.489279Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2026-01-20T04:33:39.600566Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2026-01-20T04:33:39.600790Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2026-01-20T04:34:04.996220Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\.next")}
+2026-01-20T04:34:04.996245Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:34:07.791000Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\.next")}
+2026-01-20T04:34:07.791026Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:34:07.900445Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2026-01-20T04:34:07.900552Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\.next")}
+2026-01-20T04:34:07.900558Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:34:07.900614Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2026-01-20T04:34:08.001839Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\.next")}
+2026-01-20T04:34:08.001863Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:34:08.182544Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2026-01-20T04:40:24.790008Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:40:24.790038Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:40:30.395579Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:40:30.395608Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:40:37.198775Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:40:37.198799Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:40:37.289660Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:40:37.289676Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:40:37.289771Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2026-01-20T04:41:20.996526Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:41:20.996567Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:41:38.993284Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:41:38.993313Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:41:40.188895Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:41:40.188924Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:41:41.494924Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:41:41.494946Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:41:43.288308Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:41:43.288341Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:41:47.401134Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:41:47.401154Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:42:13.102790Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:42:13.102845Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:42:21.090982Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:42:21.091008Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:42:29.189386Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:42:29.189414Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:42:59.798749Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:42:59.798782Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:43:04.600374Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:43:04.600405Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:43:10.799761Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:43:10.799798Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:44:05.401916Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:44:05.401944Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:44:05.417584Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2026-01-20T04:50:13.092246Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens\\photo_2026-01-20_10-49-24.jpg")}
+2026-01-20T04:50:13.092274Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:50:13.191705Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens"), AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens\\photo_2026-01-20_10-49-24.jpg")}
+2026-01-20T04:50:13.191727Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:50:13.191876Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2026-01-20T04:50:24.193425Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens"), AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens\\1-new.jpg"), AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens\\photo_2026-01-20_10-49-24.jpg")}
+2026-01-20T04:50:24.193438Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:50:34.602036Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\f8982defb7dbe088-turbo.log.2026-01-20")}
+2026-01-20T04:50:34.602050Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2026-01-20T04:50:40.289182Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:50:40.289208Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:50:58.196579Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:50:58.196606Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:52:19.892059Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:52:19.892096Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:09.293389Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:09.293419Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:18.399716Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:18.399747Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:21.390584Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:21.390610Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:26.788567Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:26.788584Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:30.187924Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:30.187945Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:36.598706Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:36.598733Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:42.898994Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:42.899041Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:45.892735Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:45.892768Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:47.392421Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:47.392459Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:54:55.392068Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:54:55.392088Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:55:38.296317Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens\\photo_2026-01-20_10-53-28.jpg"), AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens")}
+2026-01-20T04:55:38.296399Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:56:03.293141Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens\\photo_2026-01-20_10-53-28.jpg"), AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens\\2-new.jpg"), AnchoredSystemPathBuf("apps\\journey-jotter\\public\\landing\\phone-screens")}
+2026-01-20T04:56:03.293156Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:56:20.299276Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\f8982defb7dbe088-turbo.log.2026-01-20")}
+2026-01-20T04:56:20.299313Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2026-01-20T04:56:30.297784Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:56:30.297821Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:56:33.294211Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:56:33.294245Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:57:20.489542Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:57:20.489586Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:57:26.202023Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:57:26.202061Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:57:33.890351Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:57:33.890379Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:57:38.202520Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:57:38.202542Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:57:47.997796Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:57:47.997823Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:58:00.995677Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:58:00.995731Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:58:13.997447Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\journey-jotter\\src\\app\\(landing)\\page.tsx")}
+2026-01-20T04:58:13.997475Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@journey-jotter/journey-jotter"), path: AnchoredSystemPathBuf("apps\\journey-jotter") }}))
+2026-01-20T04:58:13.997671Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun

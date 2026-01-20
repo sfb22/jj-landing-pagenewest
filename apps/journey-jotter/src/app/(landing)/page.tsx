@@ -85,7 +85,7 @@ const PhoneComponent = ({ imageUrl }: { imageUrl: string }) => {
     <div
       ref={phoneRef}
       style={{ borderRadius }}
-      className="relative h-full aspect-[9/19.5] [box-shadow:rgba(0,_0,_0,_0.25)_0px_54px_55px,rgba(0,_0,_0,_0.12)_0px_-12px_30px,rgba(0,_0,_0,_0.12)_0px_4px_6px,rgba(0,_0,_0,_0.17)_0px_12px_13px,rgba(0,_0,_0,_0.09)_0px_-3px_5px]"
+      className="relative h-full aspect-[418/828] [box-shadow:rgba(0,_0,_0,_0.25)_0px_54px_55px,rgba(0,_0,_0,_0.12)_0px_-12px_30px,rgba(0,_0,_0,_0.12)_0px_4px_6px,rgba(0,_0,_0,_0.17)_0px_12px_13px,rgba(0,_0,_0,_0.09)_0px_-3px_5px]"
     >
       <Image
         src={imageUrl}
@@ -101,6 +101,8 @@ const PhoneComponent = ({ imageUrl }: { imageUrl: string }) => {
     </div>
   );
 };
+
+// aspect-[375/972]
 
 export default function LandingPage() {
   const [showButton, setShowButton] = useState(false);
@@ -399,10 +401,10 @@ export default function LandingPage() {
               </div>
               <div className="flex items-end justify-center h-[450px] lg:h-[90%] w-fit max-w-lg md:ml-16 max-h-full py-8  mt-6 md:mt-0">
                 <div className="relative h-full translate-x-10 md:translate-x-0">
-                  <PhoneComponent imageUrl="/landing/phone-screens/3.png" />
+                  <PhoneComponent imageUrl="/landing/phone-screens/3-new.jpg" />
                 </div>
                 <div className="relative md:-translate-x-20 -translate-x-10  h-[90%] z-10">
-                  <PhoneComponent imageUrl="/landing/phone-screens/2.png" />
+                  <PhoneComponent imageUrl="/landing/phone-screens/2-new.jpg" />
                 </div>
               </div>
             </PhoneSection>
@@ -412,7 +414,7 @@ export default function LandingPage() {
           <section id="how-it-works" className="w-full">
             <PhoneSection>
               <div className="flex items-end justify-center md:h-full w-fit max-w-xl md:mr-16 max-h-full pb-8 md:py-8 h-[650px] order-1">
-                <PhoneComponent imageUrl="/landing/phone-screens/1.png" />
+                <PhoneComponent imageUrl="/landing/phone-screens/1-new.jpg" />
               </div>
               <div className="text-center md:text-left z-20 w-full max-w-md order-2">
                 <h5 className="text-lg mt-8 font-normal md:text-2xl ">
@@ -465,7 +467,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="flex items-end justify-center md:h-full w-fit max-w-xl md:ml-16 max-h-full pb-8 md:py-8 h-[650px] order-1 md:order-2">
-                <PhoneComponent imageUrl="/landing/phone-screens/2.png" />
+                <PhoneComponent imageUrl="/landing/phone-screens/2-new.jpg" />
               </div>
             </PhoneSection>
 
@@ -473,7 +475,7 @@ export default function LandingPage() {
 
             <PhoneSection>
               <div className="flex items-end justify-center md:h-full w-fit max-w-xl md:mr-16 max-h-full pb-8 md:py-8 h-[650px]">
-                <PhoneComponent imageUrl="/landing/phone-screens/3.png" />
+                <PhoneComponent imageUrl="/landing/phone-screens/3-new.jpg" />
               </div>
 
               <div className="text-center md:text-left z-20 w-full max-w-md">
