@@ -32,13 +32,13 @@ const pricingPlans = [
     features: commonFeatures,
   },
   {
-    name: "Yearly",
-    price: "89.99",
-    currency: "£",
-    interval: "year",
-    description:
-      "Ideal for frequent travelers who want to keep a journal of all their adventures throughout the year.",
-    features: commonFeatures,
+  name: "3 Months",
+  price: "19.99",
+  currency: "£",
+  interval: "3 months",
+  description:
+    "Best value for travelers heading off on a longer trip or a full season of adventures.",
+  features: commonFeatures,
   },
 ];
 
@@ -61,7 +61,7 @@ export function PricingSection() {
               {index === 2 && (
                 <div className="absolute top-4 right-4">
                   <Badge className="bg-[#FF6F3C] text-white">
-                    Best Value - Save 25% Annually!
+                    Best Value – Save 33%
                   </Badge>
                 </div>
               )}
