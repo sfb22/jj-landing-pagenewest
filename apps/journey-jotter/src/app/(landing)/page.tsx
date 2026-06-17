@@ -12,7 +12,7 @@ import { TryForFreeButton } from "./try-for-free-button";
 
 import { PricingSection } from "@/src/components/landing/pricing-section";
 import Script from "next/script";
-import { MailchimpForm } from "@/src/components/landing/mailchimp-form";
+import { LoopsForm } from "@/src/components/landing/loops-form";
 
 const SectionDivider: React.FC = () => {
   return (
@@ -393,10 +393,10 @@ export default function LandingPage() {
                 </p>
 
                 <div className="flex w-full justify-center lg:justify-start">
-                  <MailchimpForm
-                    title="Sign Up For Waitlist Today"
-                    transparency
-                  />
+                  <LoopsForm
+                   title="Sign Up For Waitlist Today"
+                   transparency
+                   />
                 </div>
               </div>
               <div className="flex items-end justify-center h-[450px] lg:h-[90%] w-fit max-w-lg md:ml-16 max-h-full py-8  mt-6 md:mt-0">
@@ -532,9 +532,10 @@ export default function LandingPage() {
                   </h1>
                   {/* <DownloadButton size="xl" /> */}
 
-                  <MailchimpForm
-                    title="Sign Up For Waitlist Today"
-                    transparency
+                  <LoopsForm
+                   title="Sign Up For Waitlist Today"
+                   transparency
+                   />
                   />
                 </div>
               </div>
