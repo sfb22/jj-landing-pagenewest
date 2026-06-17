@@ -536,7 +536,6 @@ export default function LandingPage() {
                    title="Sign Up For Waitlist Today"
                    transparency
                    />
-                  />
                 </div>
               </div>
             </div>
