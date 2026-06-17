@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FaTiktok, FaInstagram } from "react-icons/fa";
 import { TermsDialog } from "./terms-dialog";
 import { PrivacyDialog } from "./privacy-dialog";
-import { MailchimpForm } from "./mailchimp-form";
+import { LoopsForm } from "./loops-form";
 
 export function Footer() {
   const [showTerms, setShowTerms] = useState(false);
@@ -107,7 +107,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-6">
-            <MailchimpForm title="Join The Waitlist" />
+           <LoopsForm title="Join The Waitlist" />
           </div>
 
           {/* Bottom Section */}

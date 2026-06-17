@@ -1,4 +1,4 @@
-import { MailchimpForm } from "./mailchimp-form";
+import { LoopsForm } from "./loops-form";
 
 export function MailchimpSection() {
   return (
@@ -13,7 +13,7 @@ export function MailchimpSection() {
             Be the first to know when we launch and get exclusive early access
             to our journey-tracking app.
           </p> */}
-          <MailchimpForm title="Join The Waitlist" />
+          <LoopsForm title="Join The Waitlist" />
         </div>
       </div>
     </section>
