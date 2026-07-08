@@ -22,26 +22,13 @@ const faqs = [
     ),
   },
   {
-    question: "Can I export my journal?",
-    answer: (
-      <>
-        <p>
-          Yep! You can share your journal entries directly with friends and
-          family, or export them as screenshots to post on your Instagram Story.
-          Perfect for showing off your adventures and keeping your memories
-          alive.
-        </p>
-      </>
-    ),
-  },
-  {
     question: "Is Journey Jotter available on the App Store?",
     answer: (
       <>
         <p>
-          Yes! 🎉 Journey Jotter is <strong>now live on the App Store</strong> —
-          ready for you to start capturing your travels in minutes. Just search
-          Journey Jotter and start keeping the unforgettable… unforgettable.
+          Not yet — but very soon! 🚀 Journey Jotter is{" "}
+          <strong>coming to the App Store shortly</strong>. Join the waitlist
+          below and we’ll drop you a note the moment it’s live.
         </p>
       </>
     ),
