@@ -1,15 +1,8 @@
-"use client";
-
-import { useState } from "react";
+import Link from "next/link";
 import { FaTiktok, FaInstagram } from "react-icons/fa";
-import { TermsDialog } from "./terms-dialog";
-import { PrivacyDialog } from "./privacy-dialog";
 import { LoopsForm } from "./loops-form";
 
 export function Footer() {
-  const [showTerms, setShowTerms] = useState(false);
-  const [showPrivacy, setShowPrivacy] = useState(false);
-
   return (
     <>
       <footer className="w-full bg-stone-50 py-14">
@@ -95,6 +88,14 @@ export function Footer() {
                 <h4 className="text-lg font-semibold text-gray-900">Support</h4>
                 <ul className="mt-2 space-y-2">
                   <li>
+                    <Link
+                      href="/support"
+                      className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
+                    >
+                      Help & Support
+                    </Link>
+                  </li>
+                  <li>
                     <a
                       href="mailto:contact@journeyjotter.ai"
                       className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
@@ -107,7 +108,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-6">
-           <LoopsForm title="Join The Waitlist" />
+            <LoopsForm title="Join The Waitlist" />
           </div>
 
           {/* Bottom Section */}
@@ -116,23 +117,21 @@ export function Footer() {
               © {new Date().getFullYear()} Journey Jotter. All rights reserved.
             </p>
             <div className="flex space-x-4">
-              <button
-                onClick={() => setShowTerms(true)}
+              <Link
+                href="/terms"
                 className="text-gray-500 hover:text-gray-900 text-sm transition-colors duration-300"
               >
                 Terms and Conditions
-              </button>
-              <button
-                onClick={() => setShowPrivacy(true)}
+              </Link>
+              <Link
+                href="/privacy"
                 className="text-gray-500 hover:text-gray-900 text-sm transition-colors duration-300"
               >
                 Privacy Policy
-              </button>
+              </Link>
             </div>
           </div>
         </div>
-        <TermsDialog open={showTerms} onOpenChange={setShowTerms} />
-        <PrivacyDialog open={showPrivacy} onOpenChange={setShowPrivacy} />
       </footer>
     </>
   );
