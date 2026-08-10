@@ -67,7 +67,6 @@ const faqs = [
         <p className="mt-5">
           You can delete your account at any time and we’ll remove your journals,
           photos and memories. Full detail in our{" "}
-          
             href="/privacy"
             className="underline text-[#FF6F3C] hover:opacity-80"
           >
