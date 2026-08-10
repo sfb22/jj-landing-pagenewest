@@ -13,10 +13,7 @@ const faqs = [
     answer: (
       <>
         <p>
-          Just <strong>5 minutes a day</strong>. That’s all it takes to capture
-          the highlights, laughs, and little moments you don’t want to forget.
-          Journey Jotter’s quick prompts do the heavy lifting — you just relive
-          the day.
+         Under <strong>3 minutes a day</strong>. That&rsquo;s all it takes to capture the highlights, laughs, and little moments you don&rsquo;t want to forget. Journey Jotter&rsquo;s quick prompts do the heavy lifting &mdash; you just relive the day.
         </p>
       </>
     ),
@@ -104,9 +101,9 @@ const faqs = [
     ),
   },
   {
-    question: "Can I add photos or voice notes to my journal entries?",
+    question: "Can I add photos to my journal entries?",
     answer:
-      "Absolutely! You can add photos and voice notes to bring your memories to life. Whether it’s the view from your hostel balcony or a funny story told by a new friend, Journey Jotter helps you capture every detail, not just the words.",
+      "Absolutely. Add photos to bring your memories to life. Whether it&rsquo;s the view from your hostel balcony or a sunset you&rsquo;ll want to see again, Journey Jotter helps you capture every detail, not just the words.",
   },
   {
     question: "What travel trips can I use Journey Jotter for?",
