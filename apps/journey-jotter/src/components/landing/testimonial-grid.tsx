@@ -30,61 +30,6 @@ const testimonials: TestimonialType[] = [
     author: {
       name: "Lizzie",
       title: "London",
-      avatar: "/avatars/lizzie.jpg",
-    },
-  },
-  {
-    rating: 5,
-    title: "Becca",
-    content:
-      "I never thought I'd be someone who journals, but Journey Jotter made it work for me. It's like jotting down your day without overthinking it.",
-    author: {
-      name: "Becca",
-      title: "San Diego",
-      avatar: "/avatars/becca.jpg",
-    },
-  },
-  {
-    rating: 5,
-    title: "Eric",
-    content:
-      "I'd always forget the best parts of my trips. This app helped me keep track without spending hours writing.",
-    author: {
-      name: "Eric",
-      title: "LA",
-      avatar: "/avatars/eric.jpg",
-    },
-  },
-  {
-    rating: 5,
-    title: "Jacob",
-    content:
-      "It's not just about the big moments—Journey Jotter helped me remember the small things that made my trip special.",
-    author: {
-      name: "Jacob",
-      title: "Amsterdam",
-      avatar: "/avatars/jacob.jpg",
-    },
-  },
-  {
-    rating: 5,
-    title: "Kelly",
-    content:
-      "I've tried so many ways to journal while traveling, but I'd always give up after a week. I actually stick with Journey Jotter",
-    author: {
-      name: "Kelly",
-      title: "NYC",
-      avatar: "/avatars/kelly.jpg",
-    },
-  },
-  {
-    rating: 5,
-    title: "Izzy",
-    content: "Love it, so fun to use, will be using on next trip.",
-    author: {
-      name: "Izzy",
-      title: "London",
-      avatar: "/avatars/izzy.jpg",
     },
   },
   {
@@ -95,16 +40,6 @@ const testimonials: TestimonialType[] = [
     author: {
       name: "Annaleike",
       title: "Netherlands",
-    },
-  },
-  {
-    rating: 5,
-    title: "Jane",
-    content:
-      "So far so good!!! It's like a little friend to keep in your pocket especially if you're traveling alone.",
-    author: {
-      name: "Jane",
-      title: "Boston",
     },
   },
   {
@@ -132,8 +67,8 @@ const testimonials: TestimonialType[] = [
 export function TestimonialGrid() {
   return (
     <>
-      <div className="relative w-full mx-auto max-w-7xl max-h-[2000px] md:max-h-[1200px] overflow-hidden">
-        <div className="relative columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-6 md:space-y-4 mx-auto">
+      <div className="relative w-full mx-auto max-w-5xl">
+        <div className="relative columns-1 md:columns-2 gap-4 space-y-6 md:space-y-4 mx-auto">
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}
@@ -182,8 +117,6 @@ export function TestimonialGrid() {
             </Card>
           ))}
         </div>
-        {/* Updated fade overlay */}
-        <div className="absolute inset-x-0 bottom-0 h-[650px] pointer-events-none bg-gradient-to-b from-transparent via-transparent to-stone-100" />
       </div>
     </>
   );
