@@ -95,9 +95,9 @@ export function PricingSection() {
               {/* Feature list */}
               <ul className="mb-8 space-y-4 flex-grow">
                 {plan.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-center">
+                  <li key={featureIndex} className="flex items-start">
                     <Check
-                      className={`h-5 w-5 mr-2 ${
+                      className={`h-5 w-5 mr-2 mt-0.5 flex-shrink-0 ${
                         isMiddle ? "text-[#FF6F3C]" : "text-[#FF6F3C]"
                       }`}
                     />
