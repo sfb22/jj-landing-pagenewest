@@ -45,10 +45,38 @@ const faqs = [
       </>
     ),
   },
-  {
+ {
     question: "Is my journal data private and secure?",
-    answer:
-      "Yes, your privacy is important to us. All your journal entries and personal information are securely stored with industry-standard encryption to ensure your data is protected at all times.",
+    answer: (
+      <>
+        <p>
+          Your journal entries and personal details are stored in an encrypted
+          UK-based database, encrypted in transit, with automated encrypted
+          backups.
+        </p>
+        <p className="mt-5">
+          To write your journal, your entries are processed by trusted AI
+          providers. None of them use your data to train their models. We don’t
+          sell your data or share it with advertisers.
+        </p>
+        <p className="mt-5">
+          Journey Jotter isn’t end-to-end encrypted — our servers need to read
+          your entries for the AI to write your journal. If you’d prefer a fully
+          private diary with no AI, a local-only journal app is a better fit.
+        </p>
+        <p className="mt-5">
+          You can delete your account at any time and we’ll remove your journals,
+          photos and memories. Full detail in our{" "}
+          
+            href="/privacy"
+            className="underline text-[#FF6F3C] hover:opacity-80"
+          >
+            Privacy Policy
+          </a>
+          .
+        </p>
+      </>
+    ),
   },
   {
     question: "Can I use Journey Jotter offline?",
