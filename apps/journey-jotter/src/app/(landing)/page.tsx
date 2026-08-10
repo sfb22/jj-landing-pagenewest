@@ -424,7 +424,7 @@ export default function LandingPage() {
                 </h5>
                 <h1 className="text-3xl mt-4 font-extrabold md:text-5xl ">
                   <span className="inline-block text-stone-900 bg-clip-text leading-tight">
-                    Journal in just minutes a day
+                    Journal in under 3 minutes a day
                   </span>
                 </h1>
                 <div className="flex items-center justify-center md:justify-start mt-8 mb-8">
@@ -434,7 +434,7 @@ export default function LandingPage() {
                 </div>
                 <p className="text-lg md:text-xl leading-8 text-stone-700 font-normal">
                   <strong>Journey Jotter</strong> makes sure you never forget
-                  the little things, capturing your day in just 5 minutes. Type
+                  the little things, capturing your day in under 3 minutes. Type
                   or voicenote, and you’re done.
                 </p>
               </div>
