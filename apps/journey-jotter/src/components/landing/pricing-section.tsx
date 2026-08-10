@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 // Common feature list for all plans
 const commonFeatures = [
   "Talk it out — JJ writes the journal",
-  "Prompts tailored to where you actually are",
+  "Prompts tailored to help you remember and journal better",
   "Journals that sound like you, not a robot",
   "Done in under 3 minutes",
 ];
