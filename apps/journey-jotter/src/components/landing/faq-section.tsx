@@ -103,7 +103,7 @@ const faqs = [
   {
     question: "Can I add photos to my journal entries?",
     answer:
-      "Absolutely. Add photos to bring your memories to life. Whether it&rsquo;s the view from your hostel balcony or a sunset you&rsquo;ll want to see again, Journey Jotter helps you capture every detail, not just the words.",
+      "Absolutely. Add photos to bring your memories to life. Whether it’s the view from your hostel balcony or a sunset you’ll want to see again, Journey Jotter helps you capture every detail, not just the words.",
   },
   {
     question: "What travel trips can I use Journey Jotter for?",
