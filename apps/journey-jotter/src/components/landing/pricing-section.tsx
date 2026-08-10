@@ -8,9 +8,10 @@ import { useRouter } from "next/navigation";
 
 // Common feature list for all plans
 const commonFeatures = [
-  "Your own travel sidekick (JJ that journals for you)",
-  "Unlimited photo memories",
-  "Safe and sound backups",
+  "Talk it out — JJ writes the journal",
+  "Prompts tailored to where you actually are",
+  "Journals that sound like you, not a robot",
+  "Done in under 3 minutes",
 ];
 
 const pricingPlans = [
