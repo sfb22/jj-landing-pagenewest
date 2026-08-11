@@ -49,7 +49,7 @@ const testimonials: TestimonialType[] = [
       "Journey jotter is such an incredible app for cataloging my travels! It's easy to use, the prompts are SO helpful, and the resulting journal sounds like me. I love having an app that helps me remember all the special moments from my trip.",
     author: {
       name: "Kelly",
-      title: "27",
+      title: "NYC",
     },
   },
   {
@@ -60,6 +60,16 @@ const testimonials: TestimonialType[] = [
     author: {
       name: "Dani",
       title: "California",
+    },
+  },
+  {
+    rating: 5,
+    title: "Bobby",
+    content:
+      "I always loved the idea of keeping a travel journal, but as a slow writer it never happened — my photos just sat in my camera roll. The prompts give you direction instead of a blank page, and now the photos, places and stories live together. Gonna use it for Crete.",
+    author: {
+      name: "Bobby",
+      title: "",
     },
   },
 ];
