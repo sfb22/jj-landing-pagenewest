@@ -22,6 +22,16 @@ type TestimonialType = {
 };
 
 const testimonials: TestimonialType[] = [
+    {
+    rating: 5,
+    title: "Karen",
+    content:
+      "I travel a LOT and never had the time to document my trips — it always felt like such a chore. Journey Jotter makes it seriously easy, and I love how the journal sounds like the way I actually think and talk. I’m already excited to go back and add my past trips!",
+    author: {
+      name: "Karen",
+      title: "Florida",
+    },
+  },
   {
     rating: 5,
     title: "Lizzie",
