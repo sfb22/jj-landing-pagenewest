@@ -32,6 +32,16 @@ const testimonials: TestimonialType[] = [
       title: "Florida",
     },
   },
+    {
+    rating: 5,
+    title: "Noor",
+    content:
+      "I really like the chat function — it makes journalling feel like a conversation instead of staring at a blank page. The prompts flow naturally and pull out little details I’d usually forget to write down.",
+    author: {
+      name: "Noor",
+      title: "Philadelphia",
+    },
+  },
   {
     rating: 5,
     title: "Lizzie",
