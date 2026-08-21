@@ -49,7 +49,7 @@ const faqs = [
         <p>
           Your journal entries and personal details are stored in an encrypted
           UK-based database, encrypted in transit, with automated encrypted
-          backups.
+          backups. Photos are stored privately and served through secure links that expire.
         </p>
         <p className="mt-5">
           To write your journal, your entries are processed by trusted AI
