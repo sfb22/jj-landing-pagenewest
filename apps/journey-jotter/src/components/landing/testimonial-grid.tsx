@@ -84,6 +84,16 @@ const testimonials: TestimonialType[] = [
   },
   {
     rating: 5,
+    title: "Gaby",
+    content:
+      "I loved that it asked me questions that made me remember the details, even from 2 months ago. It felt so nice and natural, like talking to a friend, that now I want to go back and register my other experiences too.",
+    author: {
+      name: "Gaby",
+      title: "São Paulo",
+    },
+  },
+  {
+    rating: 5,
     title: "Bobby",
     content:
       "I always loved the idea of keeping a travel journal, but as a slow writer it never happened — my photos just sat in my camera roll. The prompts give you direction instead of a blank page, and now the photos, places and stories live together. Gonna use it for Crete.",
