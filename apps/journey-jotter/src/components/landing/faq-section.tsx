@@ -57,10 +57,12 @@ const faqs = [
           sell your data or share it with advertisers.
         </p>
         <p className="mt-5">
-          Journey Jotter isn’t end-to-end encrypted — our servers need to read
-          your entries for the AI to write your journal. If you’d prefer a fully
-          private diary with no AI, a local-only journal app is a better fit.
-        </p>
+  Journey Jotter isn’t end-to-end encrypted. What you share in the
+  Journey Jotter chat is processed by AI to create your journal entry.
+  Journey Jotter can also remember relevant details from previous
+  conversations to make future chats more personalised — it doesn’t read
+  through your entire journal history each time.
+</p>
         <p className="mt-5">
           You can delete your account at any time and we’ll remove your journals,
          photos and memories. Full detail in our <a href="/privacy" className="underline text-[#FF6F3C] hover:opacity-80">Privacy Policy</a>.
