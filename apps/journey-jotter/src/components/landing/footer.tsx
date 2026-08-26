@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { FaTiktok, FaInstagram } from "react-icons/fa";
-import { LoopsForm } from "./loops-form";
 
 export function Footer() {
   return (
@@ -73,14 +72,16 @@ export function Footer() {
               <div>
                 <h4 className="text-lg font-semibold text-gray-900">Account</h4>
                 <ul className="mt-2 space-y-2">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
-                    >
-                      Sign Up
-                    </a>
-                  </li>
+                <li>
+  <a
+    href="https://apps.apple.com/gb/app/journey-jotter-ai/id6759657367"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
+  >
+    Download Now
+  </a>
+</li>
                 </ul>
               </div>
 
@@ -106,9 +107,6 @@ export function Footer() {
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="mt-6">
-            <LoopsForm title="Join The Waitlist" />
           </div>
 
           {/* Bottom Section */}
