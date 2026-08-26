@@ -389,15 +389,19 @@ export default function LandingPage() {
                   can keep the unforgettable, unforgettable.
                 </p>
                 <p className="mb-8 inline-block text-white text-3xl font-bold leading-tight">
-                  Coming to iOS
+                  Available now on iOS
                 </p>
 
-                <div className="flex w-full justify-center lg:justify-start">
-                  <LoopsForm
-                   title="Sign Up For Waitlist Today"
-                   transparency
-                   />
-                </div>
+               <div className="flex w-full justify-center lg:justify-start">
+  <a
+    href="https://apps.apple.com/gb/app/journey-jotter-ai/id6759657367"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-lg bg-white px-6 py-3 font-bold text-black"
+  >
+    Download on the App Store
+  </a>
+</div>
               </div>
               <div className="flex items-end justify-center h-[450px] lg:h-[90%] w-fit max-w-lg md:ml-16 max-h-full py-8  mt-6 md:mt-0">
                 <div className="relative h-full translate-x-10 md:translate-x-0">
@@ -606,10 +610,14 @@ export default function LandingPage() {
                   </h1>
                   {/* <DownloadButton size="xl" /> */}
 
-                  <LoopsForm
-                   title="Sign Up For Waitlist Today"
-                   transparency
-                   />
+                <a
+  href="https://apps.apple.com/gb/app/journey-jotter-ai/id6759657367"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-lg bg-white px-6 py-3 font-bold text-black inline-block"
+>
+  Download for Free
+</a>
                 </div>
               </div>
             </div>
