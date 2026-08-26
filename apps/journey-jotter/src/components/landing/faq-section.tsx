@@ -22,11 +22,17 @@ const faqs = [
     question: "Is Journey Jotter available on the App Store?",
     answer: (
       <>
-        <p>
-          Not yet — but very soon! 🚀 Journey Jotter is{" "}
-          <strong>coming to the App Store shortly</strong>. Join the waitlist
-          below and we’ll drop you a note the moment it’s live.
-        </p>
+    <p>
+  Yes! Journey Jotter is now live on the App Store and ready to{" "}
+  <a
+    href="https://apps.apple.com/gb/app/journey-jotter-ai/id6759657367"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline text-[#FF6F3C] hover:opacity-80"
+  >
+    download for free
+  </a>.
+</p>
       </>
     ),
   },
