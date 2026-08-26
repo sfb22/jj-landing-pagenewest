@@ -12,7 +12,6 @@ import { TryForFreeButton } from "./try-for-free-button";
 
 import { PricingSection } from "@/src/components/landing/pricing-section";
 import Script from "next/script";
-import { LoopsForm } from "@/src/components/landing/loops-form";
 
 const SectionDivider: React.FC = () => {
   return (
