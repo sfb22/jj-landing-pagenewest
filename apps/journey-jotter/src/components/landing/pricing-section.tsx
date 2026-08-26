@@ -114,7 +114,7 @@ export function PricingSection() {
                     ? "bg-gradient-to-r from-[#FF6F3C] to-[#FF6F3C] text-white font-bold hover:bg-mint-green-600 transition-colors duration-300"
                     : "bg-white text-stone-800 hover:bg-stone-100 transition-colors duration-300"
                 }`}
-                onClick={() => router.push("/app")}
+                onClick={() => window.open("https://apps.apple.com/gb/app/journey-jotter-ai/id6759657367", "_blank")}
               >
                 Get Started
               </Button>
@@ -161,7 +161,7 @@ export function PricingSectionSingle() {
             size="lg"
             variant="default"
             className="w-full rounded-full mt-4 text-lg py-6 bg-gradient-to-r from-mint-green-500 to-mint-green-500 text-white font-bold hover:bg-mint-green-600 transition-colors duration-300"
-            onClick={() => router.push("/app")}
+            onClick={() => window.open("https://apps.apple.com/gb/app/journey-jotter-ai/id6759657367", "_blank")}
           >
             Get Started
           </Button>
