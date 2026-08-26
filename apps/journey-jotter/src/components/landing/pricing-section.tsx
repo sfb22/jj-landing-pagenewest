@@ -4,7 +4,6 @@ import { Card } from "@/src/components/ui/card";
 import { Button } from "@/src/components/ui/button";
 import { Check } from "lucide-react";
 import { Badge } from "@/src/components/ui/badge";
-import { useRouter } from "next/navigation";
 
 // Common feature list for all plans
 const commonFeatures = [
@@ -44,7 +43,6 @@ const pricingPlans = [
 ];
 
 export function PricingSection() {
-  const router = useRouter();
   return (
     <div className="mx-auto max-w-7xl">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-8">
@@ -128,7 +126,6 @@ export function PricingSection() {
 
 // New component: PricingSectionSingle
 export function PricingSectionSingle() {
-  const router = useRouter();
   // Only show the Monthly plan (index 1)
   const plan = pricingPlans[1];
   const isMiddle = true;
