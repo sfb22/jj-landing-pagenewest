@@ -173,13 +173,23 @@ export default function LandingPage() {
           <div
             className={`px-3 mx-auto flex h-12 md:h-16 items-center justify-between `}
           >
-            <Link href="/" className="flex items-center space-x-2 ml-2">
-              <span
-                className={`md:font-extrabold font-bold text-lg md:text-3xl ${showButton ? "text-white" : "text-white"}`}
-              >
-                Journey Jotter
-              </span>
-            </Link>
+          <Link
+  href="/"
+  className="flex items-center gap-3 ml-2 bg-black/25 backdrop-blur-sm rounded-xl px-2.5 py-1.5"
+>
+  <Image
+    src="/landing/journey-jotter-logo.png"
+    alt="Journey Jotter logo"
+    width={48}
+    height={48}
+    className="h-9 w-9 md:h-11 md:w-11 rounded-xl"
+    priority
+  />
+
+  <span className="font-extrabold text-xl md:text-3xl text-white">
+    Journey Jotter
+  </span>
+</Link>
 
             <div className="flex items-center h-full md:gap-4">
               <nav className="hidden md:flex text-lg font-semibold items-center gap-2 h-full">
